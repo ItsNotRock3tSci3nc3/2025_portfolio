@@ -1,3 +1,8 @@
+#Supreet Aradhya's Portfolio
+This project is my portfolio made using next.JS, using a template from Vercel.
+This is my first attempt at making a portfolio, I intend to continue updating and adding content as needed.
+Below is the original README.
+
 # Portfolio Blog Starter
 
 This is a porfolio site template complete with a blog. Includes:
