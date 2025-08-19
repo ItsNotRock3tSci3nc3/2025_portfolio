@@ -7,14 +7,18 @@ export default function Page() {
         Supreet Aradhya Portfolio
       </h1>
       <p className="mb-4">
-        {`I'm a student at the University of Missouri - Columbia. I am pursuing a bachelors degree in Information Technology and a minor in Computational Neuroscience.
-            I have a passion for technology, as I often find myself pursing personal projects based on what I learn on my own or in class, and sometimes what I learn in work.
-            The experience of creating what's on my mind and the breakthroughs on solving problems keep me coming back to pursing projects.
-            Below, I outline some of my projects which show the progression of my skills and development over time.
-        `}
-      </p>
+        I am a student at the University of Missouri – Columbia, pursuing a Bachelor’s degree in Information Technology with a minor in Computational Neuroscience.
+          I have a strong passion for technology and enjoy working on personal projects inspired by what I learn in class, at work, or through independent study.
+          Since I was a kid, I've been a bit of a tinker. I'd always take on projects to create something new, or fix something broken.
+          The process of building new ideas and overcoming challenges continually motivates me to take on new projects. My interests are diverse.
+          I am always open to a challenge and trying something new.
+          <br />
+          Feel free to explore my <a href="https://github.com/ItsNotRock3tSci3nc3" target="_blank" rel="noopener noreferrer"><span className="underline">GitHub</span></a> and view my <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"><span className="underline">resume</span></a> to learn more about my work.
+          <br />
+          Want to get in touch? You can reach me at <a href="mailto:aradhyasupreet@gmail.com"><span className="underline">aradhyasupreet@gmail.com</span></a>.
+        </p>
       <div className="my-8">
-        <BlogPosts />
+        {/*<BlogPosts />*/}
       </div>
     </section>
   )
