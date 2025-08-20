@@ -4,13 +4,16 @@ const navItems = {
   '/': {
     name: 'Home',
   },
+  '/gallery': {
+      name: 'Gallery',
+  },
   'https://github.com/ItsNotRock3tSci3nc3': {
     name: 'Github',
   },
   '/resume.pdf': {
     name: 'Resume'
   },
-  'www.linkedin.com/in/supreet-aradhya': {
+  'https://www.linkedin.com/in/supreet-aradhya/': {
     name: 'Linkedin'
   },
 }

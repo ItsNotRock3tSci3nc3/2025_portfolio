@@ -1,11 +1,14 @@
 import { BlogPosts } from 'app/components/posts'
+import Image from 'next/image';
 
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Supreet Aradhya Portfolio
+        Hi! I'm Supreet Aradhya.
       </h1>
+      <Image src="/Supreet_Sitting-2.JPEG" alt="Supreet Headshot" width={300} height={100} />
+      <br />
       <p className="mb-4">
         I am a student at the University of Missouri – Columbia, pursuing a Bachelor’s degree in Information Technology with a minor in Computational Neuroscience.
           I have a strong passion for technology and enjoy working on personal projects inspired by what I learn in class, at work, or through independent study.

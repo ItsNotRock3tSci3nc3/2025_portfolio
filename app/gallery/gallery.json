@@ -1,0 +1,32 @@
+[
+  {
+    "src": "/gallery/farm-ng_first_field_test.jpg",
+    "title": "First Path Following Field Test Setup",
+    "description": "This was our first field test with autonomous path following in field settings. Taken as we prepare the robot to follow the path."
+  },
+  {
+    "src": "/gallery/farm-ng_first_field_test2.jpg",
+    "title": "Active Path Following",
+    "description": "Robot following a coordinate path."
+  },
+  {
+    "src": "/gallery/farm-ng_first_field_test3.jpg",
+    "title": "Collecting Data",
+    "description": "The robot following the path as we are collecting onboard data."
+  },
+  {
+    "src": "/gallery/FG_state_champs.JPG",
+    "title": "2022-2023 Season State Championship",
+    "description": "Team picture after winning the highest award at the state championship, getting us to the world championship in Houston,TX."
+  },
+  {
+    "src": "/gallery/live_feed_test.jpeg",
+    "title": "Live Feed Test",
+    "description": "Live feed of the cameras on the robot after setting up a pipeline to send data between a website and the robot."
+  },
+  {
+    "src": "/gallery/MESC_directors_2025.JPEG",
+    "title": "2025 Mizzou Engineering Student Council (MESC) Directors",
+    "description": "MESC photo day!"
+  }
+]
