@@ -2,7 +2,10 @@
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
-  output: "export", // required for GitHub Pages
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
   basePath: isProd ? "/2025_portfolio" : "",
   assetPrefix: isProd ? "/2025_portfolio/" : "",
   images: { unoptimized: true },
