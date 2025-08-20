@@ -8,6 +8,7 @@ export default function Page() {
         Hi! I'm Supreet Aradhya.
       </h1>
       <Image src="/Supreet_Sitting-2.JPEG" alt="Supreet Headshot" width={300} height={100} />
+      <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/Supreet_Sitting.JPEG`} />
       <br />
       <p className="mb-4">
         I am a student at the University of Missouri – Columbia, pursuing a Bachelor’s degree in Information Technology with a minor in Computational Neuroscience.
