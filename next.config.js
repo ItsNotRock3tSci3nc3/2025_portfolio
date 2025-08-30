@@ -8,7 +8,6 @@ const nextConfig = {
   },
   basePath: isProd ? "/2025_portfolio" : "",
   assetPrefix: isProd ? "/2025_portfolio/" : "",
-  images: { unoptimized: true },
   trailingSlash: true,
 };
 
