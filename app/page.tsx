@@ -8,7 +8,7 @@ export default function Page() {
         Hi! I'm Supreet Aradhya.
       </h1>
       {/*<img src="/2025_portfolio/Supreet_Sitting-2.JPEG" alt="Headshot" width={300} />*/}
-      <img src={`/${process.env.NEXT_PUBLIC_BASE_PATH || ''}/Supreet_Sitting-2.JPEG`} alt="Headshot" width={300}/>
+      <img src={`/gallery/Supreet_Sitting-2.JPEG`} alt="Headshot" width={300}/>
       <br />
       <p className="mb-4">
         I am a student at the University of Missouri – Columbia, pursuing a Bachelor’s degree in Information Technology with a minor in Computational Neuroscience.
@@ -28,7 +28,7 @@ export default function Page() {
         </a>{" "}
         and view my{" "}
         <a
-          href="/2025_portfolio/resume.pdf"
+          href="/public/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
