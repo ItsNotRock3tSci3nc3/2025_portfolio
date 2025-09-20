@@ -7,8 +7,40 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Hi! I'm Supreet Aradhya.
       </h1>
-      <img src={`/gallery/Supreet_Sitting-2.JPEG`} alt="Headshot" width={300}/>
+      <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/gallery/Supreet_Sitting-2.JPEG`} alt="Headshot" width={300}/>
       <br />
+      <p className="mb-4">
+        I am a student at the University of Missouri – Columbia, pursuing a Bachelor’s degree in Information Technology with a minor in Computational Neuroscience.
+        I have a strong passion for technology and enjoy working on personal projects inspired by what I learn in class, at work, or through independent study.
+        Since I was a kid, I've been a bit of a tinker. I'd always take on projects to create something new, or fix something broken.
+        The process of building new ideas and overcoming challenges continually motivates me to take on new projects. My interests are diverse.
+        I am always open to a challenge and trying something new.
+        <br />
+        Feel free to explore my{" "}
+        <a
+          href="https://github.com/ItsNotRock3tSci3nc3"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          GitHub
+        </a>{" "}
+        and view my{" "}
+        <a
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          Resume
+        </a>{" "}
+        to learn more about my work.
+        <br />
+        Want to get in touch? You can reach me at{" "}
+        <a href="mailto:aradhyasupreet@gmail.com" className="underline">
+          aradhyasupreet@gmail.com
+        </a>.
+      </p>
       <p className="mb-4">
         I am a student at the University of Missouri – Columbia, pursuing a Bachelor’s degree in Information Technology with a minor in Computational Neuroscience.
         I have a strong passion for technology and enjoy working on personal projects inspired by what I learn in class, at work, or through independent study.
