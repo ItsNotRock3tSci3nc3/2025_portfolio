@@ -27,6 +27,8 @@ export default function GalleryPage() {
     }
   }
 
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH
+
   return (
     <section className="max-w-6xl mx-auto p-8">
       <h1 className="mb-8 text-3xl font-bold tracking-tight">Gallery</h1>
@@ -40,7 +42,7 @@ export default function GalleryPage() {
             onClick={() => setSelectedIndex(idx)}
           >
             <Image
-              src={img.src}
+              src={`${basePath}${img.src}`}
               alt={img.title}
               width={500}
               height={300}

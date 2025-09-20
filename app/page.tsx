@@ -7,7 +7,6 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Hi! I'm Supreet Aradhya.
       </h1>
-      {/*<img src="/2025_portfolio/Supreet_Sitting-2.JPEG" alt="Headshot" width={300} />*/}
       <img src={`/gallery/Supreet_Sitting-2.JPEG`} alt="Headshot" width={300}/>
       <br />
       <p className="mb-4">
@@ -28,7 +27,7 @@ export default function Page() {
         </a>{" "}
         and view my{" "}
         <a
-          href="/public/resume.pdf"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/resume.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="underline"

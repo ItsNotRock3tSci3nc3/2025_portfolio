@@ -1,16 +1,16 @@
 [
   {
-    "src": "/gallery/farm-ng_first_field_test.jpg",
+    "src": "/gallery/farm-ng_first_field_test.JPG",
     "title": "First Path Following Field Test Setup",
     "description": "This was our first field test with autonomous path following in field settings. Taken as we prepare the robot to follow the path."
   },
   {
-    "src": "/gallery/farm-ng_first_field_test2.jpg",
+    "src": "/gallery/farm-ng_first_field_test2.JPG",
     "title": "Active Path Following",
     "description": "Robot following a coordinate path."
   },
   {
-    "src": "/gallery/farm-ng_first_field_test3.jpg",
+    "src": "/gallery/farm-ng_first_field_test3.JPG",
     "title": "Collecting Data",
     "description": "The robot following the path as we are collecting onboard data."
   },

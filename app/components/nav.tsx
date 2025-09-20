@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+const resumePath = `${process.env.NEXT_PUBLIC_BASE_PATH}/resume.pdf`;
 const navItems = {
   '/': {
     name: 'Home',
@@ -10,7 +10,7 @@ const navItems = {
   'https://github.com/ItsNotRock3tSci3nc3': {
     name: 'Github',
   },
-  '/resume.pdf': {
+  [resumePath]: {
     name: 'Resume'
   },
   'https://www.linkedin.com/in/supreet-aradhya/': {

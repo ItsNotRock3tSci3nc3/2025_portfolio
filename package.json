@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "deploy": "next build && gh-pages -d out -f"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "@tailwindcss/postcss": "4.0.0-alpha.13",
