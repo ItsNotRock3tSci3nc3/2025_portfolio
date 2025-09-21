@@ -1,4 +1,3 @@
-import { BlogPosts } from 'app/components/posts'
 import Image from 'next/image';
 
 export default function Page() {
@@ -74,9 +73,7 @@ export default function Page() {
         </a>.
       </p>
 
-      {/*<div className="my-8">*/}
-        {/*<BlogPosts />*/}
-      {/*</div>*/}
+
     </section>
   )
 }
